@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Eaglesoft Percentage Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">VU Result</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://wa.me/+923076947417" target="_blank">WhatsApp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://eaglesoft.com.pk/" target="_blank">Visit Our Website</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/eaglesoft.pk/" target="_blank">Insagram</a>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+    <div class="container p-3 mb-2 bg-success text-white">
+    <form name="checkresult" method="post">
+        <!-- cs101 start  -->
+        <H1>Enter CS101 Obtained Marks</H1>
+        <Label>Enter CS101 Quizes #1 + #2 + Grand Quiz Marks:</Label>
+        <br>
+        <input type="number" name="cs101_quiz" placeholder="Enter Quizes Marks">
+        <br>
+        <Label>Enter CS101 Assignemt #1 + #2 + #3 Marks:</Label>
+        <br>
+        <input type="number" name="cs101_assignment" placeholder="Enter Assignments Marks">
+        <br>
+        <label>Enter CS101 GDB Marks:</label>
+        <br>
+        <input type="number" name="cs101_gdb" placeholder="Enter CS101 GDB Makrs">
+        <br>
+        <!-- cs101 end  -->
+
+        
+
+        <!-- eng101 start  -->
+        <H1>Enter ENG101 Obtained Marks</H1>
+        <Label>Enter ENG101 Quizes #1 + #2 + #3 + Grand Quiz Marks:</Label>
+        <br>
+        <input type="number" name="eng101_quiz" placeholder="Enter Quizes Marks">
+        <br>
+        <Label>Enter ENG101 Assignemt #1 Marks:</Label>
+        <br>
+        <input type="number" name="eng101_assignment" placeholder="Enter Assignments Marks">
+        <br>
+        <label>Enter ENG101 GDB Marks:</label>
+        <br>
+        <input type="number" name="eng101_gdb" placeholder="Enter CS101 GDB Makrs">
+        <br>
+        <!-- eng101 end  -->
+
+        <!-- math101 start  -->
+        <H1>Enter MTH101 Obtained Marks</H1>
+        <Label>Enter MTH101 Quizes #1 + #2 + #3 + Grand Quiz Marks:</Label>
+        <br>
+        <input type="number" name="mth101_quiz" placeholder="Enter MTH101 Quizes Marks">
+        <br>
+        <Label>Enter MTH101 Assignemt #1 + #2 Marks:</Label>
+        <br>
+        <input type="number" name="mth101_assignment" placeholder="Enter MTH101 Assignments Marks">
+        <br>
+        <!-- math101 end  -->
+
+        <!-- ISL201 START  -->
+        <H1>Enter ISL201 Obtained Marks</H1>
+        <Label>Enter ISL201 Quizes #1 + #2 + #3 + Grand Quiz Marks:</Label>
+        <br>
+        <input type="number" name="isl201_quiz" placeholder="Enter ISL201 Quizes Marks">
+        <br>
+        <Label>Enter ISL201 Assignemt #1 Marks:</Label>
+        <br>
+        <input type="number" name="isl201_assignment" placeholder="EnterISL201 Assignments Marks">
+        <br>
+        <label>Enter ISL201 GDB Marks:</label>
+        <br>
+        <input type="number" name="isl201_gdb" placeholder="EnterISL201 GDB Makrs">
+        <br>
+        <!-- ISL201 END     -->
+
+        <!-- PAK301 start  -->
+        <H1>Enter PAK301 Obtained Marks</H1>
+        <Label>Enter PAK301 Quizes #1 + #2 + #3 + Grand Quiz Marks:</Label>
+        <br>
+        <input type="number" name="pak301_quiz" placeholder="Enter PAK301 Quizes Marks">
+        <br>
+        <Label>Enter PAK301 Assignemt #1 Marks:</Label>
+        <br>
+        <input type="number" name="pak301_assignment" placeholder="Enter PAK301 Assignments Marks">
+        <br>
+        <label>Enter PAK301 GDB Marks:</label>
+        <br>
+        <input type="number" name="pak301_gdb" placeholder="Enter PAK301 GDB Makrs">
+        <br>
+        <!-- pak301 end  -->
+
+        <!-- MGT101 START  -->
+        <H1>Enter MGT101 Obtained Marks</H1>
+        <Label>Enter MGT101 Quizes #1 + #2 + #3 + Grand Quiz Marks:</Label>
+        <br>
+        <input type="number" name="mgt101_quiz" placeholder="Enter MGT101 Quizes Marks">
+        <br>
+        <Label>Enter MGT101 Assignemt #1 Marks:</Label>
+        <br>
+        <input type="number" name="mgt101_assignment" placeholder="Enter MGT101 Assignments Marks">
+        <br>
+        <label>Enter MGT101 GDB Marks:</label>
+        <br>
+        <input type="number" name="mgt101_gdb" placeholder="Enter MGT101 GDB Makrs">
+        <br>
+        <!-- MGT101 END  -->
+
+        <button type="submit" onclick="return(output())" class="btn btn-primary mt-2">Check Result</button>
+    </form>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Developed by Eaglesoft Programmers</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://wa.me/+923076947417" target="_blank">Chat With Us</a>
+    
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+    <script>
+        function output()
+        {
+            // cs101 start
+            var cs101_1=document.forms["checkresult"]["cs101_quiz"].value;
+            if(cs101_1=="")
+            {
+                alert("Please Enter CS101 Quizes Marks");
+                return false
+            }
+            var cs101_2=document.forms["checkresult"]["cs101_assignment"].value;
+            if(cs101_2=="")
+            {
+                alert("Please Enter CS101 Assignments Marks");
+                return false
+            }
+            var cs101_3=document.forms["checkresult"]["cs101_gdb"].value;
+            if(cs101_3=="")
+            {
+                alert("Please Enter CS101 GDB Makrs");
+                return false
+            }
+            // cs101 end 
+
+            // eng101 start
+            var eng101_1=document.forms["checkresult"]["eng101_quiz"].value;
+            if(eng101_1=="")
+            {
+                alert("Please Enter ENG101 Quizes Marks");
+                return false
+            }
+            var eng101_2=document.forms["checkresult"]["eng101_assignment"].value;
+            if(eng101_2=="")
+            {
+                alert("Please Enter ENG101 Assignments Marks");
+                return false
+            }
+            var eng101_3=document.forms["checkresult"]["eng101_gdb"].value;
+            if(eng101_3=="")
+            {
+                alert("Please Enter ENG101 GDB Makrs");
+                return false
+            } 
+            // eng101 end 
+
+            // MTH101 START
+            var mth101_1=document.forms["checkresult"]["mth101_quiz"].value;
+            if(mth101_1=="")
+            {
+                alert("Please Enter MTH101 Quizes Marks");
+                return false
+            }
+            var mth101_2=document.forms["checkresult"]["mth101_assignment"].value;
+            if(mth101_2=="")
+            {
+                alert("Please Enter MTH101 Assignments Marks");
+                return false
+            }
+  
+            // math101 end
+            
+            // ISL201 start
+            var isl201_1=document.forms["checkresult"]["isl201_quiz"].value;
+            if(isl201_1=="")
+            {
+                alert("Please Enter ISL201 Quizes Marks");
+                return false
+            }
+            var isl201_2=document.forms["checkresult"]["isl201_assignment"].value;
+            if(isl201_2=="")
+            {
+                alert("Please Enter ISL201 Assignments Marks");
+                return false
+            }
+            var isl201_3=document.forms["checkresult"]["isl201_gdb"].value;
+            if(isl201_3=="")
+            {
+                alert("Please Enter ISL201 GDB Makrs");
+                return false
+            }  
+            // ISL201 END 
+
+            // pak301 start 
+            var pak301_1=document.forms["checkresult"]["pak301_quiz"].value;
+            if(pak301_1=="")
+            {
+                alert("Please Enter PAK301 Quizes Marks");
+                return false
+            }
+            var pak301_2=document.forms["checkresult"]["pak301_assignment"].value;
+            if(pak301_2=="")
+            {
+                alert("Please Enter PAK301 Assignments Marks");
+                return false
+            }
+            var pak301_3=document.forms["checkresult"]["pak301_gdb"].value;
+            if(pak301_3=="")
+            {
+                alert("Please Enter PAK301 GDB Makrs");
+                return false
+            }  
+            // pak301 end 
+
+            // mgt101 start
+            var mgt101_1=document.forms["checkresult"]["mgt101_quiz"].value;
+            if(mgt101_1=="")
+            {
+                alert("Please Enter MGT101 Quizes Marks");
+                return false
+            }
+            var mgt101_2=document.forms["checkresult"]["mgt101_assignment"].value;
+            if(mgt101_2=="")
+            {
+                alert("Please Enter MGT101 Assignments Marks");
+                return false
+            }
+            var mgt101_3=document.forms["checkresult"]["mgt101_gdb"].value;
+            if(mgt101_3=="")
+            {
+                alert("Please Enter MGT101 GDB Makrs");
+                return false
+            }  
+            // mgt101 end 
+
+
+
+            
+            cs101_1=Number(cs101_1);
+            cs101_2=Number(cs101_2);
+            cs101_3=Number(cs101_3);
+            var cs101_total=cs101_1+cs101_2+cs101_3;
+            var per_cs101=cs101_total/115*100;
+            document.write("<h2>Your CS101 Result is: " + per_cs101 +"%<br>");
+
+
+            eng101_1=Number(eng101_1);
+            eng101_2=Number(eng101_2);
+            eng101_3=Number(eng101_3);
+            var eng101_total=eng101_1+eng101_2+eng101_3;
+            var per_eng101=eng101_total/85*100;
+            document.write("Your ENG101 Result is: " + per_eng101+"%<br>");
+
+            mth101_1=Number(mth101_1);
+            mth101_2=Number(mth101_2);
+            var mth101_total=mth101_1+mth101_2;
+            var per_mth101=mth101_total/85*100;
+            document.write("Your MTH101 Result is: " + per_mth101+"%<br>");
+
+            isl201_1=Number(isl201_1);
+            isl201_2=Number(isl201_2);
+            isl201_3=Number(isl201_3);
+            var isl201_total=isl201_1+isl201_2+isl201_3;
+            var per_isl201=isl201_total/88*100;
+            document.write("Your ISL201 Result is: " + per_isl201+"%<br>");
+
+
+            pak301_1=Number(pak301_1);
+            pak301_2=Number(pak301_2);
+            pak301_3=Number(pak301_3);
+            var pak301_total=pak301_1+pak301_2+pak301_3;
+            var per_pak301=pak301_total/80*100;
+            document.write("Your PAK301 Result is: " + per_pak301+"%<br>");
+
+
+            mgt101_1=Number(mgt101_1);
+            mgt101_2=Number(mgt101_2);
+            mgt101_3=Number(mgt101_3);
+            var mgt101_total=mgt101_1+mgt101_2+mgt101_3;
+            var per_mgt101=mgt101_total/75*100;
+            document.write("Your MGT101 Result is: " + per_mgt101+"%<br></h2>");
+
+            var overall=cs101_total+eng101_total+mth101_total+isl201_total+pak301_total+mgt101_total;
+            overall_per=overall/528*100;
+            document.write("<br><br><h1> Your Over all percentage is : "+overall_per+"%<br></h1>");
+
+            document.write('<img src="https://cutt.ly/pzRts6q" class="img-fluid ml-5" alt="Eaglesoft logo">');
+            
+        }
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
